@@ -1,2 +1,2 @@
-# Qu-n-l-sinh-vi-n-
+# QuanLiSinhVien
 Quản lí sinh viên các lớp
