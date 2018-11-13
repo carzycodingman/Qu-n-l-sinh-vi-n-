@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="E:\DEADLINE\LẬP TRÌNH ỨNG DỤNG QUẢN LÍ 1\TUẦN 03\1660662\1660662\DATADPOACCESS\QLHS.MDF" Class="QLHSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-H6J9M44\QTCSDL;Initial Catalog=&quot;E:\DEADLINE\LẬP TRÌNH ỨNG DỤNG QUẢN LÍ 1\TUẦN 03\1660662\1660662\DATADPOACCESS\QLHS.MDF&quot;;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="_1660662.Properties.Settings" SettingsPropertyName="E__DEADLINE_LẬP_TRÌNH_ỨNG_DỤNG_QUẢN_LÍ_1_TUẦN_03_1660662_1660662_DATADPOACCESS_QLHS_MDFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.HOCSINH" Member="HOCSINHs">
+    <Type Name="HOCSINH">
+      <Column Name="MaHocSinh" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenHocSinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GioiTinh" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="MaLop" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LOPHOC_HOCSINH" Member="LOPHOC" ThisKey="MaLop" OtherKey="MaLop" Type="LOPHOC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOPHOC" Member="LOPHOCs">
+    <Type Name="LOPHOC">
+      <Column Name="MaLop" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LopTruong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GVQuanLy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NamBatDau" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NamKetThuc" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SiSo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LOPHOC_HOCSINH" Member="HOCSINHs" ThisKey="MaLop" OtherKey="MaLop" Type="HOCSINH" />
+    </Type>
+  </Table>
+</Database>
