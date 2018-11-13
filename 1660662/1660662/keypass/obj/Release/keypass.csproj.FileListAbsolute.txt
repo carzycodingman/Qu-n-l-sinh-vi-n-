@@ -1,0 +1,13 @@
+E:\Projects\C Sharp GUI\keypass\keypass\bin\Release\keypass.exe.config
+E:\Projects\C Sharp GUI\keypass\keypass\bin\Release\keypass.exe
+E:\Projects\C Sharp GUI\keypass\keypass\bin\Release\keypass.pdb
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.frmCreateUser.resources
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.frmKeyPass.resources
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.frmMainKeyPass.resources
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.Properties.Resources.resources
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.csproj.GenerateResource.cache
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.csproj.CoreCompileInputs.cache
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.exe
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.pdb
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.csprojAssemblyReference.cache
+E:\Projects\C Sharp GUI\keypass\keypass\obj\Release\keypass.frmLogin.resources
